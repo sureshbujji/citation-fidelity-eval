@@ -1,0 +1,1 @@
+pytest  # test runner; the citation_fidelity package itself is stdlib-only

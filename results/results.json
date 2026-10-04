@@ -1,0 +1,1220 @@
+{
+  "personas": {
+    "faithful": {
+      "aggregate": {
+        "n_answers": 6,
+        "citation_rate": 1.0,
+        "citation_precision": 1.0,
+        "claim_coverage": 1.0,
+        "wrong_citation_rate": 0.0,
+        "hallucination_rate": 0.0,
+        "contradiction_rate": 0.0,
+        "n_claims": 12
+      },
+      "answers": [
+        {
+          "question_id": "q1",
+          "question": "When was the Aurora Phone released and what does it cost?",
+          "answer": "The Aurora Phone was released in 2024. [D1] It costs $799. [D1]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 1.0,
+            "claim_coverage": 1.0,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 2,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Aurora Phone was released in 2024.",
+              "citations": [
+                "D1"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D1"
+            },
+            {
+              "text": "It costs $799.",
+              "citations": [
+                "D1"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D1"
+            }
+          ]
+        },
+        {
+          "question_id": "q2",
+          "question": "Tell me about the Zephyr Laptop's price and memory.",
+          "answer": "The Zephyr Laptop costs $1299. [D2] It ships with 16GB of RAM. [D2]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 1.0,
+            "claim_coverage": 1.0,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 2,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Zephyr Laptop costs $1299.",
+              "citations": [
+                "D2"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D2"
+            },
+            {
+              "text": "It ships with 16GB of RAM.",
+              "citations": [
+                "D2"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D2"
+            }
+          ]
+        },
+        {
+          "question_id": "q3",
+          "question": "What are the Nimbus Tablet's display size and price?",
+          "answer": "The Nimbus Tablet has a 10.9-inch display. [D3] It costs $499. [D3]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 1.0,
+            "claim_coverage": 1.0,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 2,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Nimbus Tablet has a 10.9-inch display.",
+              "citations": [
+                "D3"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D3"
+            },
+            {
+              "text": "It costs $499.",
+              "citations": [
+                "D3"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D3"
+            }
+          ]
+        },
+        {
+          "question_id": "q4",
+          "question": "How long does the Vortex Drone fly, and when was it released?",
+          "answer": "The Vortex Drone flies for up to 45 minutes per charge. [D4] The Vortex Drone was released in 2025. [D4]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 1.0,
+            "claim_coverage": 1.0,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 2,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Vortex Drone flies for up to 45 minutes per charge.",
+              "citations": [
+                "D4"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D4"
+            },
+            {
+              "text": "The Vortex Drone was released in 2025.",
+              "citations": [
+                "D4"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D4"
+            }
+          ]
+        },
+        {
+          "question_id": "q5",
+          "question": "Does the Pulse Watch have a heart-rate sensor? What does it cost?",
+          "answer": "The Pulse Watch includes a heart-rate sensor. [D5] It costs $299. [D5]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 1.0,
+            "claim_coverage": 1.0,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 2,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Pulse Watch includes a heart-rate sensor.",
+              "citations": [
+                "D5"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D5"
+            },
+            {
+              "text": "It costs $299.",
+              "citations": [
+                "D5"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D5"
+            }
+          ]
+        },
+        {
+          "question_id": "q6",
+          "question": "Compare the Echo Speaker and Halo Headphones prices.",
+          "answer": "The Echo Speaker costs $149. [D6] The Halo Headphones cost $349. [D7]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 1.0,
+            "claim_coverage": 1.0,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 2,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Echo Speaker costs $149.",
+              "citations": [
+                "D6"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D6"
+            },
+            {
+              "text": "The Halo Headphones cost $349.",
+              "citations": [
+                "D7"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D7"
+            }
+          ]
+        }
+      ]
+    },
+    "sloppy_citer": {
+      "aggregate": {
+        "n_answers": 6,
+        "citation_rate": 1.0,
+        "citation_precision": 0.5,
+        "claim_coverage": 0.5,
+        "wrong_citation_rate": 0.5,
+        "hallucination_rate": 0.0,
+        "contradiction_rate": 0.0,
+        "n_claims": 12
+      },
+      "answers": [
+        {
+          "question_id": "q1",
+          "question": "When was the Aurora Phone released and what does it cost?",
+          "answer": "The Aurora Phone was released in 2024. [D3] It costs $799. [D1]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.5,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 1,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Aurora Phone was released in 2024.",
+              "citations": [
+                "D3"
+              ],
+              "verdict": "wrong_citation",
+              "evidence_doc": "D1"
+            },
+            {
+              "text": "It costs $799.",
+              "citations": [
+                "D1"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D1"
+            }
+          ]
+        },
+        {
+          "question_id": "q2",
+          "question": "Tell me about the Zephyr Laptop's price and memory.",
+          "answer": "The Zephyr Laptop costs $1299. [D2] It ships with 16GB of RAM. [D5]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.5,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 1,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Zephyr Laptop costs $1299.",
+              "citations": [
+                "D2"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D2"
+            },
+            {
+              "text": "It ships with 16GB of RAM.",
+              "citations": [
+                "D5"
+              ],
+              "verdict": "wrong_citation",
+              "evidence_doc": "D2"
+            }
+          ]
+        },
+        {
+          "question_id": "q3",
+          "question": "What are the Nimbus Tablet's display size and price?",
+          "answer": "The Nimbus Tablet has a 10.9-inch display. [D3] It costs $499. [D7]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.5,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 1,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Nimbus Tablet has a 10.9-inch display.",
+              "citations": [
+                "D3"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D3"
+            },
+            {
+              "text": "It costs $499.",
+              "citations": [
+                "D7"
+              ],
+              "verdict": "wrong_citation",
+              "evidence_doc": "D3"
+            }
+          ]
+        },
+        {
+          "question_id": "q4",
+          "question": "How long does the Vortex Drone fly, and when was it released?",
+          "answer": "The Vortex Drone flies for up to 45 minutes per charge. [D4] The Vortex Drone was released in 2025. [D8]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.5,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 1,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Vortex Drone flies for up to 45 minutes per charge.",
+              "citations": [
+                "D4"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D4"
+            },
+            {
+              "text": "The Vortex Drone was released in 2025.",
+              "citations": [
+                "D8"
+              ],
+              "verdict": "wrong_citation",
+              "evidence_doc": "D4"
+            }
+          ]
+        },
+        {
+          "question_id": "q5",
+          "question": "Does the Pulse Watch have a heart-rate sensor? What does it cost?",
+          "answer": "The Pulse Watch includes a heart-rate sensor. [D1] It costs $299. [D5]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.5,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 1,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Pulse Watch includes a heart-rate sensor.",
+              "citations": [
+                "D1"
+              ],
+              "verdict": "wrong_citation",
+              "evidence_doc": "D5"
+            },
+            {
+              "text": "It costs $299.",
+              "citations": [
+                "D5"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D5"
+            }
+          ]
+        },
+        {
+          "question_id": "q6",
+          "question": "Compare the Echo Speaker and Halo Headphones prices.",
+          "answer": "The Echo Speaker costs $149. [D6] The Halo Headphones cost $349. [D6]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.5,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 1,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Echo Speaker costs $149.",
+              "citations": [
+                "D6"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D6"
+            },
+            {
+              "text": "The Halo Headphones cost $349.",
+              "citations": [
+                "D6"
+              ],
+              "verdict": "wrong_citation",
+              "evidence_doc": "D7"
+            }
+          ]
+        }
+      ]
+    },
+    "hallucinator": {
+      "aggregate": {
+        "n_answers": 6,
+        "citation_rate": 1.0,
+        "citation_precision": 0.5,
+        "claim_coverage": 0.5,
+        "wrong_citation_rate": 0.0,
+        "hallucination_rate": 0.5,
+        "contradiction_rate": 0.0,
+        "n_claims": 12
+      },
+      "answers": [
+        {
+          "question_id": "q1",
+          "question": "When was the Aurora Phone released and what does it cost?",
+          "answer": "The Aurora Phone was released in 2024. [D1] It has a 200MP camera. [D1]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.5,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 1
+            }
+          },
+          "claims": [
+            {
+              "text": "The Aurora Phone was released in 2024.",
+              "citations": [
+                "D1"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D1"
+            },
+            {
+              "text": "It has a 200MP camera.",
+              "citations": [
+                "D1"
+              ],
+              "verdict": "unsupported",
+              "evidence_doc": null
+            }
+          ]
+        },
+        {
+          "question_id": "q2",
+          "question": "Tell me about the Zephyr Laptop's price and memory.",
+          "answer": "The Zephyr Laptop costs $1299. [D2] It folds in half. [D2]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.5,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 1
+            }
+          },
+          "claims": [
+            {
+              "text": "The Zephyr Laptop costs $1299.",
+              "citations": [
+                "D2"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D2"
+            },
+            {
+              "text": "It folds in half.",
+              "citations": [
+                "D2"
+              ],
+              "verdict": "unsupported",
+              "evidence_doc": null
+            }
+          ]
+        },
+        {
+          "question_id": "q3",
+          "question": "What are the Nimbus Tablet's display size and price?",
+          "answer": "The Nimbus Tablet has a 10.9-inch display. [D3] It recognizes handwriting. [D3]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.5,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 1
+            }
+          },
+          "claims": [
+            {
+              "text": "The Nimbus Tablet has a 10.9-inch display.",
+              "citations": [
+                "D3"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D3"
+            },
+            {
+              "text": "It recognizes handwriting.",
+              "citations": [
+                "D3"
+              ],
+              "verdict": "unsupported",
+              "evidence_doc": null
+            }
+          ]
+        },
+        {
+          "question_id": "q4",
+          "question": "How long does the Vortex Drone fly, and when was it released?",
+          "answer": "The Vortex Drone flies for up to 45 minutes per charge. [D4] It has obstacle avoidance. [D4]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.5,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 1
+            }
+          },
+          "claims": [
+            {
+              "text": "The Vortex Drone flies for up to 45 minutes per charge.",
+              "citations": [
+                "D4"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D4"
+            },
+            {
+              "text": "It has obstacle avoidance.",
+              "citations": [
+                "D4"
+              ],
+              "verdict": "unsupported",
+              "evidence_doc": null
+            }
+          ]
+        },
+        {
+          "question_id": "q5",
+          "question": "Does the Pulse Watch have a heart-rate sensor? What does it cost?",
+          "answer": "The Pulse Watch includes a heart-rate sensor. [D5] It tracks blood oxygen. [D5]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.5,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 1
+            }
+          },
+          "claims": [
+            {
+              "text": "The Pulse Watch includes a heart-rate sensor.",
+              "citations": [
+                "D5"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D5"
+            },
+            {
+              "text": "It tracks blood oxygen.",
+              "citations": [
+                "D5"
+              ],
+              "verdict": "unsupported",
+              "evidence_doc": null
+            }
+          ]
+        },
+        {
+          "question_id": "q6",
+          "question": "Compare the Echo Speaker and Halo Headphones prices.",
+          "answer": "The Echo Speaker costs $149. [D6] The Halo Headphones have a 40-hour battery life. [D7]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.5,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 1
+            }
+          },
+          "claims": [
+            {
+              "text": "The Echo Speaker costs $149.",
+              "citations": [
+                "D6"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D6"
+            },
+            {
+              "text": "The Halo Headphones have a 40-hour battery life.",
+              "citations": [
+                "D7"
+              ],
+              "verdict": "unsupported",
+              "evidence_doc": null
+            }
+          ]
+        }
+      ]
+    },
+    "contradictor": {
+      "aggregate": {
+        "n_answers": 6,
+        "citation_rate": 1.0,
+        "citation_precision": 0.5,
+        "claim_coverage": 0.5,
+        "wrong_citation_rate": 0.0,
+        "hallucination_rate": 0.0,
+        "contradiction_rate": 0.5,
+        "n_claims": 12
+      },
+      "answers": [
+        {
+          "question_id": "q1",
+          "question": "When was the Aurora Phone released and what does it cost?",
+          "answer": "The Aurora Phone was released in 2023. [D1] It costs $799. [D1]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.5,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 0,
+              "contradicted": 1,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Aurora Phone was released in 2023.",
+              "citations": [
+                "D1"
+              ],
+              "verdict": "contradicted",
+              "evidence_doc": "D1"
+            },
+            {
+              "text": "It costs $799.",
+              "citations": [
+                "D1"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D1"
+            }
+          ]
+        },
+        {
+          "question_id": "q2",
+          "question": "Tell me about the Zephyr Laptop's price and memory.",
+          "answer": "The Zephyr Laptop costs $999. [D2] It ships with 16GB of RAM. [D2]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.5,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 0,
+              "contradicted": 1,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Zephyr Laptop costs $999.",
+              "citations": [
+                "D2"
+              ],
+              "verdict": "contradicted",
+              "evidence_doc": "D2"
+            },
+            {
+              "text": "It ships with 16GB of RAM.",
+              "citations": [
+                "D2"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D2"
+            }
+          ]
+        },
+        {
+          "question_id": "q3",
+          "question": "What are the Nimbus Tablet's display size and price?",
+          "answer": "The Nimbus Tablet has a 12.9-inch display. [D3] It costs $499. [D3]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.5,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 0,
+              "contradicted": 1,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Nimbus Tablet has a 12.9-inch display.",
+              "citations": [
+                "D3"
+              ],
+              "verdict": "contradicted",
+              "evidence_doc": "D3"
+            },
+            {
+              "text": "It costs $499.",
+              "citations": [
+                "D3"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D3"
+            }
+          ]
+        },
+        {
+          "question_id": "q4",
+          "question": "How long does the Vortex Drone fly, and when was it released?",
+          "answer": "The Vortex Drone flies for up to 30 minutes per charge. [D4] The Vortex Drone was released in 2025. [D4]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.5,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 0,
+              "contradicted": 1,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Vortex Drone flies for up to 30 minutes per charge.",
+              "citations": [
+                "D4"
+              ],
+              "verdict": "contradicted",
+              "evidence_doc": "D4"
+            },
+            {
+              "text": "The Vortex Drone was released in 2025.",
+              "citations": [
+                "D4"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D4"
+            }
+          ]
+        },
+        {
+          "question_id": "q5",
+          "question": "Does the Pulse Watch have a heart-rate sensor? What does it cost?",
+          "answer": "The Pulse Watch does not include a heart-rate sensor. [D5] It costs $299. [D5]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.5,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 0,
+              "contradicted": 1,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Pulse Watch does not include a heart-rate sensor.",
+              "citations": [
+                "D5"
+              ],
+              "verdict": "contradicted",
+              "evidence_doc": "D5"
+            },
+            {
+              "text": "It costs $299.",
+              "citations": [
+                "D5"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D5"
+            }
+          ]
+        },
+        {
+          "question_id": "q6",
+          "question": "Compare the Echo Speaker and Halo Headphones prices.",
+          "answer": "The Echo Speaker costs $149. [D6] The Halo Headphones cost $249. [D7]",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 2,
+            "citation_rate": 1.0,
+            "citation_precision": 0.5,
+            "claim_coverage": 0.5,
+            "wrong_citation_rate": 0.0,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.5,
+            "verdict_counts": {
+              "supported": 1,
+              "wrong_citation": 0,
+              "contradicted": 1,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Echo Speaker costs $149.",
+              "citations": [
+                "D6"
+              ],
+              "verdict": "supported",
+              "evidence_doc": "D6"
+            },
+            {
+              "text": "The Halo Headphones cost $249.",
+              "citations": [
+                "D7"
+              ],
+              "verdict": "contradicted",
+              "evidence_doc": "D7"
+            }
+          ]
+        }
+      ]
+    },
+    "no_citations": {
+      "aggregate": {
+        "n_answers": 6,
+        "citation_rate": 0.0,
+        "citation_precision": null,
+        "claim_coverage": 1.0,
+        "wrong_citation_rate": null,
+        "hallucination_rate": 0.0,
+        "contradiction_rate": 0.0,
+        "n_claims": 12
+      },
+      "answers": [
+        {
+          "question_id": "q1",
+          "question": "When was the Aurora Phone released and what does it cost?",
+          "answer": "The Aurora Phone was released in 2024. It costs $799.",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 0,
+            "citation_rate": 0.0,
+            "citation_precision": null,
+            "claim_coverage": 1.0,
+            "wrong_citation_rate": null,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 2,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Aurora Phone was released in 2024.",
+              "citations": [],
+              "verdict": "supported",
+              "evidence_doc": "D1"
+            },
+            {
+              "text": "It costs $799.",
+              "citations": [],
+              "verdict": "supported",
+              "evidence_doc": "D1"
+            }
+          ]
+        },
+        {
+          "question_id": "q2",
+          "question": "Tell me about the Zephyr Laptop's price and memory.",
+          "answer": "The Zephyr Laptop costs $1299. It ships with 16GB of RAM.",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 0,
+            "citation_rate": 0.0,
+            "citation_precision": null,
+            "claim_coverage": 1.0,
+            "wrong_citation_rate": null,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 2,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Zephyr Laptop costs $1299.",
+              "citations": [],
+              "verdict": "supported",
+              "evidence_doc": "D2"
+            },
+            {
+              "text": "It ships with 16GB of RAM.",
+              "citations": [],
+              "verdict": "supported",
+              "evidence_doc": "D2"
+            }
+          ]
+        },
+        {
+          "question_id": "q3",
+          "question": "What are the Nimbus Tablet's display size and price?",
+          "answer": "The Nimbus Tablet has a 10.9-inch display. It costs $499.",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 0,
+            "citation_rate": 0.0,
+            "citation_precision": null,
+            "claim_coverage": 1.0,
+            "wrong_citation_rate": null,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 2,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Nimbus Tablet has a 10.9-inch display.",
+              "citations": [],
+              "verdict": "supported",
+              "evidence_doc": "D3"
+            },
+            {
+              "text": "It costs $499.",
+              "citations": [],
+              "verdict": "supported",
+              "evidence_doc": "D3"
+            }
+          ]
+        },
+        {
+          "question_id": "q4",
+          "question": "How long does the Vortex Drone fly, and when was it released?",
+          "answer": "The Vortex Drone flies for up to 45 minutes per charge. The Vortex Drone was released in 2025.",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 0,
+            "citation_rate": 0.0,
+            "citation_precision": null,
+            "claim_coverage": 1.0,
+            "wrong_citation_rate": null,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 2,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Vortex Drone flies for up to 45 minutes per charge.",
+              "citations": [],
+              "verdict": "supported",
+              "evidence_doc": "D4"
+            },
+            {
+              "text": "The Vortex Drone was released in 2025.",
+              "citations": [],
+              "verdict": "supported",
+              "evidence_doc": "D4"
+            }
+          ]
+        },
+        {
+          "question_id": "q5",
+          "question": "Does the Pulse Watch have a heart-rate sensor? What does it cost?",
+          "answer": "The Pulse Watch includes a heart-rate sensor. It costs $299.",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 0,
+            "citation_rate": 0.0,
+            "citation_precision": null,
+            "claim_coverage": 1.0,
+            "wrong_citation_rate": null,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 2,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Pulse Watch includes a heart-rate sensor.",
+              "citations": [],
+              "verdict": "supported",
+              "evidence_doc": "D5"
+            },
+            {
+              "text": "It costs $299.",
+              "citations": [],
+              "verdict": "supported",
+              "evidence_doc": "D5"
+            }
+          ]
+        },
+        {
+          "question_id": "q6",
+          "question": "Compare the Echo Speaker and Halo Headphones prices.",
+          "answer": "The Echo Speaker costs $149. The Halo Headphones cost $349.",
+          "metrics": {
+            "n_claims": 2,
+            "n_cited": 0,
+            "citation_rate": 0.0,
+            "citation_precision": null,
+            "claim_coverage": 1.0,
+            "wrong_citation_rate": null,
+            "hallucination_rate": 0.0,
+            "contradiction_rate": 0.0,
+            "verdict_counts": {
+              "supported": 2,
+              "wrong_citation": 0,
+              "contradicted": 0,
+              "unsupported": 0
+            }
+          },
+          "claims": [
+            {
+              "text": "The Echo Speaker costs $149.",
+              "citations": [],
+              "verdict": "supported",
+              "evidence_doc": "D6"
+            },
+            {
+              "text": "The Halo Headphones cost $349.",
+              "citations": [],
+              "verdict": "supported",
+              "evidence_doc": "D7"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
